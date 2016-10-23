@@ -18,8 +18,7 @@ app.error = function(exception, request, response) {
 app.intent('alexaWoes',
     {
         "utterances":[
-            "where were you",
-            "where you been"
+            "where he was last night"
         ]
     },
     function(request, response) {
