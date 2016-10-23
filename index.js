@@ -24,7 +24,7 @@ app.intent('alexaWoes',
     },
     function(request, response) {
         // Eventually this will play an aduio clip once I figure that out
-        response.say("<audio src='https://www.dropbox.com/home?preview=Drake+-+Know+Yourself+2015+(1).mp3'/>");
+        response.say("<audio src='https://www.dropbox.com/home?preview=Drake+-+Know+Yourself+2015.mp3'/>");
     }
 );
 
