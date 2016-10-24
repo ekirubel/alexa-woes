@@ -23,7 +23,7 @@ app.intent('drakeWoes',
     },
     function(request, response) {
         response.say("He says, " +
-            "<audio src='https://dl.dropboxusercontent.com/s/644n84or9e9fxwl/Drake%20-%20Know%20Yourself%202015%20%281%29.mp3?dl=0'/>");
+            "<audio src='https://dl.dropboxusercontent.com/s/644n84or9e9fxwl/Drake%20-%20Know%20Yourself%202015%20%281%29.mp3'/>");
     }
 );
 
