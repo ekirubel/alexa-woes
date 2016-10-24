@@ -35,7 +35,7 @@ app.intent('drakeFeeling',
     },
     function(request, response) {
         response.say("He says, " +
-            "<audio src='https://d2eopxgp627wep.cloudfront.net/ps/audios/000/000/004/original/you-can-do-better.wav'/>");
+            "<audio src='https://dl.dropboxusercontent.com/s/ermhkklvbl5rr5w/you-can-do-better.mp3'/>");
     }
 )
 
