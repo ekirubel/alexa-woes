@@ -15,17 +15,28 @@ app.error = function(exception, request, response) {
     response.say('Something is wrong, yo!' + error.message);
 }
 
-app.intent('alexaWoes',
+app.intent('drakeWoes',
     {
         "utterances":[
             "where he was last night"
         ]
     },
     function(request, response) {
-        // Eventually this will play an aduio clip once I figure that out
         response.say("He says, " +
             "<audio src='https://dl.dropboxusercontent.com/s/vi426qd2ff74u2l/Drake%20-%20Know%20Yourself%202015.mp3'/>");
     }
 );
+
+app.intent('drakeFeeling',
+    {
+        "utterances":[
+            "how he's feeling"
+        ]
+    },
+    function(request, response) {
+        response.say("He says, " +
+            "<audio src='https://d2eopxgp627wep.cloudfront.net/ps/audios/000/000/004/original/you-can-do-better.wav'/>");
+    }
+)
 
 module.exports = app;
